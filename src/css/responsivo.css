@@ -1,0 +1,47 @@
+@media (max-width: 1460px) {
+    .parte-principal{
+        flex-direction: column;
+    }
+}
+@media (max-width: 950px) {
+    .parte-principal {
+        justify-content: center;
+    }
+    
+    .parte-principal .informacoes {
+        padding: 30px 30px;
+        width: auto;
+    }
+    .parte-principal .logo-serie {
+        padding: 0;
+    }
+}
+@media (max-width: 550px) {
+
+    .cabecalho .mais-filme {
+        margin: 0px;
+    }
+    .parte-principal {
+        flex-direction: column;
+        align-items: center;
+    }
+    .parte-principal .trailer {
+        margin: 12px 0;
+        height: 120%;
+        width: 25rem;
+        border-radius: 2px;
+    }
+    .parte-principal .informacoes {
+        padding: 100px 20px;
+        width: auto;
+    }
+    .parte-principal .logo-serie {
+        padding: 0;
+        margin: 0 0 0px 0;
+        width: 100%;
+    }
+    .parte-principal .sinopse {
+        margin: -40px 0;
+    }
+
+}
